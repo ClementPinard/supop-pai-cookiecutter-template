@@ -25,7 +25,7 @@ See [Install instructions](https://docs.astral.sh/uv/getting-started/installatio
 
 1. Create your own repo on github, keep it empty. Optionally, add a License (this template does not have any).
 2. Clone it, and note the github web address to your repo (not the git address).
-3. Call the following command
+3. Enter your newly cloned (and empty) repository and from there call the following command
 
     ```bash
     uvx cookiecutter https://github.com/ClementPinard/supop-pai-cookiecuttter-template
@@ -37,15 +37,9 @@ See [Install instructions](https://docs.astral.sh/uv/getting-started/installatio
     - the repo name: make it so it matches the repo name on github
     - the github web adress of your project
 
-4. copy paste everything in the newly created "cookiecutter_output" folder created in your
-previously cloned repo. Note the `/.` after the `cookiecutter_output` folder,
-it is essential.
+    Your project squeleton is generated directly inside your repository.
 
-    ```bash
-    cp -r cookiecutter_output/. <my cloned repo>
-    ```
-
-5. You can now commit and push to have a first version of your project
+4. You can now commit and push to have a first version of your project
 
     ```bash
     git add .
@@ -53,7 +47,7 @@ it is essential.
     git push
     ```
 
-6. Notice the github actions on your repository.
+5. Notice the github actions on your repository.
 
     Several tests should have been started:
 
@@ -67,7 +61,7 @@ it is essential.
 
     To customize them, you can modify the `.github/workflows/CI.yaml` file in your repo.
 
-7. Start coding !
+6. Start coding !
 
     - Use the already built-in examples to either construct a Qt app or a NiceGUI app
     - Don't forget to implement tests as you add features.
