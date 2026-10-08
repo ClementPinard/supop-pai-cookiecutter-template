@@ -17,5 +17,5 @@ def run(reload: bool = False):
     ui.run(reload=reload)
 
 
-if __name__ in {"__main__", "__main_mp"}:
+if __name__ in {"__main__", "__mp_main__"}:
     run(True)
