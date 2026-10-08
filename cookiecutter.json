@@ -3,7 +3,7 @@
     "repo_name": "{{ cookiecutter.project_full_name | slugify(separator='-') }}",
     "package_name": "{{ cookiecutter.project_full_name | slugify(separator='_') }}",
     "authors": "",
-    "github_url": "https://github.com/ClementPinard/supop-pai-cookiecuttter-template",
+    "github_url": "https://github.com/ClementPinard/supop-pai-cookiecutter-template",
     "_output_folder": "cookiecutter_output",
     "_copy_without_render": [
         "docs/_templates",

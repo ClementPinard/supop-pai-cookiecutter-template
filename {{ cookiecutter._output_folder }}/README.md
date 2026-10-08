@@ -1,6 +1,6 @@
 ## {{ cookiecutter.project_full_name }}
 
-This project was started with [supopo-pai-cookiecutter-template](https://github.com/ClementPinard/supop-pai-cookiecuttter-template/tree/main)
+This project was started with [supopo-pai-cookiecutter-template](https://github.com/ClementPinard/supop-pai-cookiecutter-template)
 
 ## How to run
 

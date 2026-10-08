@@ -1,4 +1,4 @@
-# supop-pai-cookiecuttter-template
+# supop-pai-cookiecutter-template
 
 A cookiecutter template that you can use to start your project.
 
@@ -28,7 +28,7 @@ See [Install instructions](https://docs.astral.sh/uv/getting-started/installatio
 3. Enter your newly cloned (and empty) repository and from there call the following command
 
     ```bash
-    uvx cookiecutter https://github.com/ClementPinard/supop-pai-cookiecuttter-template
+    uvx cookiecutter https://github.com/ClementPinard/supop-pai-cookiecutter-template
     ```
 
     It will ask for:
